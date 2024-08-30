@@ -8,10 +8,10 @@ a {
 }
 
 .weather-app {
-  background: linear-gradient(
-    to top,
-    rgb(251, 194, 235) 0%,
-    rgb(166, 193, 238) 100%
+  background: radial-gradient(
+    621px at 25.3% 13.8%,
+    rgb(255, 255, 255) 0%,
+    rgb(234, 236, 255) 90%
   );
   max-width: 600px;
   margin: 60px auto;
