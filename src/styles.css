@@ -8,7 +8,7 @@ a {
 }
 
 .weather-app {
-  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+  background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
@@ -22,7 +22,12 @@ header {
 }
 
 .search-input {
-  background-color: #cfd8f1;
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+
   border: none;
   color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
