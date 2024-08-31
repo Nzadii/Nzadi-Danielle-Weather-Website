@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #41063a;
+  color: #b70fa3;
 }
 
 .weather-app {
@@ -70,7 +70,7 @@ main {
   margin: 0;
 }
 .current-details {
-  color: rgba(27, 24, 43, 0.4);
+  color: #41063a;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -103,5 +103,5 @@ footer {
   text-align: center;
   padding-top: 15px;
 
-  color: rgba(27, 24, 43, 0.4);
+  color: #41063a;
 }
