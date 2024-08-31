@@ -34,10 +34,10 @@ header {
 .search-button {
   margin-left: 5px;
   font-size: 16px;
-  background-color: radial-gradient(
-    circle at 10% 20%,
-    rgb(236, 158, 248) 0%,
-    rgb(131, 83, 241) 90.1%
+  background-color: linear-gradient(
+    310.6deg,
+    rgba(100, 0, 233, 0.94) 6.8%,
+    rgba(166, 0, 188, 0.66) 57.8%
   );
   color: rgb(255, 255, 255);
   border: none;
