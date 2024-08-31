@@ -8,11 +8,7 @@ a {
 }
 
 .weather-app {
-  background: linear-gradient(
-    359.3deg,
-    rgb(196, 214, 252) 1%,
-    rgba(187, 187, 187, 0) 70.9%
-  );
+  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
