@@ -3,10 +3,12 @@ function displayTemperature(response) {
   let temperature = Math.round(response.data.temperature.current);
   let cityElement = document.querySelector("#current-city");
   let iconElement = document.querySelector("#icon");
+  let windspeedElement = document.querySelector("#wind-speed");
 
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = temperature;
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="current-temperature-icon" />`;
+  windspeedElement.innerHTML = `${response.data.wind.speed}km/hr`;
 }
 
 function search(event) {
