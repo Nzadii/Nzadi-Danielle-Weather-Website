@@ -34,12 +34,12 @@ header {
 .search-button {
   margin-left: 5px;
   font-size: 16px;
-  background-color: linear-gradient(
-    310.6deg,
-    rgba(100, 0, 233, 0.94) 6.8%,
-    rgba(166, 0, 188, 0.66) 57.8%
+  background: radial-gradient(
+    circle at 52.1% -29.6%,
+    rgb(144, 17, 105) 0%,
+    rgb(51, 0, 131) 100.2%
   );
-  color: rgb(229, 10, 10);
+  color: rgb(255, 255, 255);
   border: none;
   padding: 20px;
   line-height: 1;
