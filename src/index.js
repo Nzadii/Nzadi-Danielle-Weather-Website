@@ -4,11 +4,13 @@ function displayTemperature(response) {
   let cityElement = document.querySelector("#current-city");
   let iconElement = document.querySelector("#icon");
   let windspeedElement = document.querySelector("#wind-speed");
+  let descriptionElement = document.querySelector("#description");
 
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = temperature;
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="current-temperature-icon" />`;
   windspeedElement.innerHTML = `${response.data.wind.speed}km/hr`;
+  descriptionElement.innerHTML = `${response.data.condition.description}`;
 }
 
 function search(event) {
