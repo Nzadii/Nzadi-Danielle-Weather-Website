@@ -24,8 +24,8 @@ a {
 }
 
 .weather-forecast {
-  display: inline-block;
-  margin-left: 10%;
+  display: flex;
+  gap: 60px;
 }
 .weather-forecast-temperature {
   padding: 0 10px;
