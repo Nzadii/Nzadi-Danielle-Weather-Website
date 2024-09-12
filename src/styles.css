@@ -32,7 +32,8 @@ a {
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
+  width: 100px;
+  height: 80px;
   text-align: center;
 }
 
