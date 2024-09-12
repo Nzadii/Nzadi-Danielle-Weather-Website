@@ -13,8 +13,6 @@ function displayTemperature(response) {
   windspeedElement.innerHTML = `${response.data.wind.speed}km/hr`;
   descriptionElement.innerHTML = `${response.data.condition.description}`;
   humidityElement.innerHTML = `${response.data.temperature.humidity}`;
-
-  getForecast(response.data.city);
 }
 
 function search(event) {
@@ -64,24 +62,22 @@ function getForecast(city) {
 function displayForecast(response) {
   console.log(response.data);
 
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
   let forecastHtml = "";
 
-  response.data.daily.forEach(function (day) {
+  days.forEach(function (day) {
+    console.log(response.data);
     forecastHtml =
       forecastHtml +
       `
  <div class="weather-forecast-day">
-            <div class="weather-forcast-date">Tue</div>
-            <div">
-            <img src="${day.condition.icon_url}"class="weather-forecast-icon"/>
-            </div>
+            <div class="weather-forcast-date">${day}</div>
+            <div class="weather-forecast-icon">☀️</div>
             <div class="weather-forecast-temperatures">
               <div class="weather-forcast-temperature">
-                <strong>${Math.round(day.temperature.maximum)}°</strong>
+                <strong>15°</strong>
               </div>
-              <div class="weather-forcast-temperature">${Math.round(
-                day.temperature.minimum
-              )}°</div>
+              <div class="weather-forcast-temperature">9°</div>
             </div>
           </div>
 
